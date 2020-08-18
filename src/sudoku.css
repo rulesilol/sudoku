@@ -1,0 +1,53 @@
+#container {
+  display: grid;
+  grid: repeat(9, 49px) / auto-flow 49px;
+  gap: 0px;
+  justify-content: center;
+  padding-top: 1.5%;
+  gap: 0px;
+}
+
+#container > div {
+  background-color: #8ca0ff;
+  width: 50px;
+  height: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.inputSquare {
+  border-radius: 0 !important;
+}
+
+input:focus {
+  z-index: 99 !important;
+}
+#controlPanel {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  justify-content: center;
+  padding-top: 1.5%;
+  gap: 1%;
+}
+
+#heading {
+  display: grid;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+#difficultyPanel {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  padding-top: 1%;
+  gap: 1%;
+
+}
